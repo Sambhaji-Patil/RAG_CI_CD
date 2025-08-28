@@ -23,7 +23,7 @@ faiss_index/
 # Data & archive
 data/
 archive/
-main_archive/
+main_archive.py
 *.pdf
 
 # Secrets & configs
@@ -41,3 +41,12 @@ document_portal.egg-info/
 
 # policies
 incline_policy.json
+instruction_for_deployment.txt
+
+#test
+test.py
+pytest.ini
+
+#experiments
+notebook/*
+*notebook
